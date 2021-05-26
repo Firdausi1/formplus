@@ -4,7 +4,7 @@ function Search({searchByName, value}) {
     return (
         <div className="home-searchBar">
             <input
-							type="search"
+							type="text"
 							onChange={searchByName}
 							className="search"
 							placeholder="Search Templates"

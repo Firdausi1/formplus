@@ -2,7 +2,7 @@ import React from 'react'
 
 function Pages({currentPage, handleNext, handlePrev, pageNumbers}) {
     return (
-        <div>
+        <div className="pages">
             <ul className="page-numbers">
 				<li id={currentPage} onClick={handlePrev}>
 					Prev
