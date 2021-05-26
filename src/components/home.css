@@ -1,4 +1,4 @@
-.home {
+body {
 	width: 80%;
 	margin: 50px auto;
 }
@@ -107,18 +107,16 @@ fieldset select {
 	text-transform: capitalize;
 }
 .pages{
+	width: 100%;
 	display: flex;
 	justify-content: center;
-	width: 100%;
 	align-items: center;
 }
 .page-numbers {
 	display: flex;
 	list-style: none;
-	bottom: 30px;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
 }
 
 .page-numbers li {
@@ -190,9 +188,12 @@ fieldset select {
 		flex-direction: column;
 	}
 	fieldset {
-		width: 60%;
+		width: 30%;
 	}
 	fieldset select{
 		width: 100%;
+	}
+	.topic-list li {
+		font-size: 14px;
 	}
 }

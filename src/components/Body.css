@@ -6,6 +6,7 @@
 	flex-wrap: wrap;
 	align-content: space-between;
 	flex: 1;
+	min-height: 80vh;
 }
 
 .box {
